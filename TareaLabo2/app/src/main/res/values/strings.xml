@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tennis Score Table</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="point">POINT</string>
+    <string name="score">CURRENT GAME</string>
+    <string name="deffault_score">0</string>
+</resources>
