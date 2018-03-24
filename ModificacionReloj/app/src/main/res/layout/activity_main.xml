@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#AAA"
+    tools:context="com.m00061016.modificacionreloj.MainActivity">
+
+    <!-- Text View Básico -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:text="12:00" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="#00F"
+        android:textSize="24sp"
+        android:text="San Salvador"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="165dp"
+            android:background="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            />
+
+            <TextView
+                android:id="@+id/ciudad_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/ciudad_1"
+                android:layout_marginTop="35dp"
+                />
+
+            <TextView
+                android:id="@+id/hora_ciudad_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/_00_01"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@id/ciudad_1"
+                android:layout_marginRight="40dp"
+                />
+
+            <TextView
+
+                android:id="@+id/ciudad_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/ciudad_2"
+                android:layout_below="@id/ciudad_1"
+                android:layout_marginTop="35dp"
+                />
+
+            <TextView
+                android:id="@+id/hora_ciudad_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/_00_02"
+                android:layout_below="@id/hora_ciudad_1"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@id/ciudad_2"
+                android:layout_marginRight="40dp"
+                />
+
+
+            <TextView
+                android:id="@+id/ciudad_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/ciudad_3"
+                android:layout_below="@id/ciudad_2"
+                android:layout_marginTop="35dp"
+                />
+
+            <TextView
+                android:id="@+id/hora_ciudad_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="@string/_00_03"
+                android:layout_below="@id/hora_ciudad_2"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@id/ciudad_3"
+                android:layout_marginRight="40dp"
+                />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

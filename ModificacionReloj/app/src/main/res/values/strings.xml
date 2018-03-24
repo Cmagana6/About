@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Modificacion Reloj</string>
+    <string name="ciudad_1">Ciudad 1</string>
+    <string name="_00_01">00:01</string>
+    <string name="ciudad_2">Ciudad 2</string>
+    <string name="_00_02">00:02</string>
+    <string name="ciudad_3">Ciudad 3</string>
+    <string name="_00_03">00:03</string>
+</resources>
