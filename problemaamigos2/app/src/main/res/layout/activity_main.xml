@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.m00061016.problemaamigos.MainActivity">
+
+    <!-- Puerta -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puerta"
+        />
+
+    <!--Mesa de Douglas -->
+
+    <TextView
+        android:id="@+id/mesa_douglas"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Mesa de Douglas"
+        android:textColor="#000"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Douglas"
+        android:textColor="#000"
+        android:layout_above="@+id/mesa_douglas"
+        android:layout_marginLeft="20dp"
+        />
+    
+    <!-- Mesa de Pedro -->
+    <TextView
+        android:id="@+id/mesa_pedro"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:background="@color/colorAccent"
+        android:text="Mesa de Pedro"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:text="Pedro"
+        android:textColor="#000"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/mesa_pedro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/persona_1"
+        android:text="Persona1"
+        android:textColor="#000"
+        android:layout_below="@+id/mesa_pedro"
+        android:layout_alignLeft="@id/mesa_pedro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/persona_2"
+        android:text="Persona2"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/persona_1"
+        android:layout_below="@id/mesa_pedro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/persona_3"
+        android:text="Persona3"
+        android:textColor="#000"
+        android:layout_above="@id/mesa_pedro"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@id/mesa_pedro"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/persona_4"
+        android:text="Persona4"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/persona_3"
+        android:layout_above="@id/mesa_pedro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Mesa de Sara-->
+
+    <TextView
+        android:id="@+id/mesa_sara"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Mesa de Sara"
+        android:background="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:id="@+id/Sara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sara"
+        android:textColor="#000"
+        android:layout_above="@id/Obdulio"
+        android:layout_alignLeft="@id/mesa_sara"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/Obdulio"
+        android:text="Obdulio"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/mesa_sara"
+        android:layout_below="@id/mesa_sara"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/Carlos"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carlos"
+        android:layout_below="@id/mesa_sara"
+        android:layout_toRightOf="@id/Obdulio"
+        android:layout_marginLeft="10dp"
+        />
+
+    <!--Mesa Karla-->
+
+    <TextView
+        android:id="@+id/mesa_karla"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Mesa de Karla"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:id="@+id/karla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Karla"
+        android:layout_above="@id/hugo"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/sebas"
+        android:text="Sebas"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hugo"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/hugo"
+        android:text="Hugo"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mesa_karla"
+        android:layout_alignLeft="@id/mesa_karla"
+        android:layout_marginLeft="60dp"
+        />
+
+</RelativeLayout>
